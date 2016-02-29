@@ -1,0 +1,21 @@
+/*
+  Theme Name: Twenty Eleven - Diveaid
+  Template: twentyeleven
+  Description: Little tweaks to the Twenty Eleven theme.
+*/
+
+@import url("../twentyeleven/style.css");
+
+#site-logo {
+  margin: 12px;
+  text-align: center;
+}
+#site-logo:before {
+  content: url(images/diveaid.jpg);
+}
+.entry-content h1 {
+   font-size: 120%;
+}
+.entry-content h2 {
+   font-size: 110%;
+}
